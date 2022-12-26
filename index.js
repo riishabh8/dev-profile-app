@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGO_URL, {
 
 app.use("/api/developers", profileRoute);
 
-app.use(express.static(path.join(__dirname, 'client/build')));
+app.use(express.static(path.join(__dirname, 'build')));
 
 // app.get('*', function (req, res) {
 //   res.sendFile(path.join(__dirname, 'build', 'index.html'));
@@ -24,7 +24,7 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 
 
 app.get("*", (req, res) => {
-  const index = path.join(__dirname, "client/build", "index.html");
+  const index = path.join(__dirname, "build", "index.html");
   res.sendFile(index);
 });
 
