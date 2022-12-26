@@ -1,0 +1,14 @@
+.footer {
+  height: 80px;
+  background-color: #3f3d56;
+  color: #fff;
+  margin: 0;
+  line-height: 80px;
+  text-align: center;
+}
+.footerImg{
+    color: #a83f39;
+}
+.footerTxt{
+    font-size:24px;
+}

@@ -1,0 +1,18 @@
+.addDevButton {
+  text-align: center;
+  border-top: 2px solid #d0cde1;
+  margin-bottom: 50px;
+}
+.addDevButton .txt{
+    margin: 50px 0;
+    font-size: 36px;
+    color: #3f3d56;
+}
+.addDevButton .btn{
+    height: 80px;
+    font-size: 36px;
+    background-color: #7c639f;
+    padding:0 72px;
+    color: #fff;
+    border-radius: 25px;
+}

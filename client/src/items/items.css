@@ -1,0 +1,19 @@
+.items {
+  margin: 100px 0;
+}
+.input-group {
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 50%;
+  margin: 5em auto;
+}
+.btn-primary {
+  color: #3f3d56;
+  background-color: #d0cde1;
+  border-color: #d0cde1;
+}
+.btn-primary:hover {
+  color: #FFF;
+  background-color: #7C639F;
+  border-color: #d0cde1;
+}

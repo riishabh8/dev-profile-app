@@ -1,0 +1,22 @@
+.profileInputImg {
+  height: 24px;
+  width: 24px;
+  margin-bottom: 20px;
+}
+p::first-letter {
+  text-transform: capitalize;
+}
+.profileInputLabel {
+  display: inline-block;
+  font-size: 24px;
+  position: relative;
+  top: -4px;
+  margin-left: 20px;
+}
+.profileInputTxt {
+  height: 50px;
+  width: 600px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 2px solid #d0cde1;
+}

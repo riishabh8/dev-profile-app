@@ -1,0 +1,64 @@
+.profileHeader {
+  background-color: #2f2e41;
+  width: 100%;
+  color: #fff;
+  padding: 30px;
+}
+.profileHeader h2 {
+  display: inline-block;
+}
+.profileHeader h2:last-child {
+  float: right;
+}
+
+.devInfo {
+  background-color: #e5e5e5;
+}
+
+.devLogo {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  top: -1.5em;
+  margin:10px 100px;
+  border-radius: 50%;
+}
+.devDes {
+  margin-top: 100px;
+  display: inline-block;
+}
+.devName {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.devExp {
+  font-size: 24;
+  margin-bottom: 30px;
+}
+.links {
+  font-size: 16px;
+}
+.links p img {
+  margin: 0 20px;
+}
+.links p img:first-child {
+  margin-left: 0px;
+}
+.socialLinks {
+  margin: 30px 0;
+}
+.socialLinks img {
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+}
+.repoHeader {
+  font-size: 56px;
+  text-align: center;
+  padding: 30px 0;
+  border-bottom: 2px solid #dbd9e8;
+  color: #3f3d56;
+}
+.repoList{
+    margin-bottom: 100px;
+}

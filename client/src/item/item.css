@@ -1,0 +1,23 @@
+.accountLogo {
+  height: 100px;
+  width: 100px;
+  margin-right: 50px;
+  border-radius: 50%;
+}
+.itemName {
+  font-size: 36px;
+  color: #9f8e63;
+  margin-right: 20px;
+  display: inline-block;
+  position: relative;
+}
+.item {
+  display: inline-block;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.itemlink {
+  position: relative;
+  top: -25px;
+  cursor: pointer;
+}

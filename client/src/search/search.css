@@ -1,0 +1,35 @@
+.search {
+  width: 780px !important;
+}
+
+.searchTerm {
+  width: 700px;
+  border: 10px solid #d0cde1;
+  border-right: none;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #3f3d56;
+}
+
+::placeholder {
+  color: #d0cde1;
+}
+
+.searchButton {
+  width: 52px;
+  height: 55px;
+  border: 1px solid #d0cde1;
+  background: #d0cde1;
+  text-align: center;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  width: 2%;
+  margin: 50px 25em;
+  transform: translate(-50%, -50%);
+}
